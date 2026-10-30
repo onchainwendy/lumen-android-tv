@@ -9,9 +9,9 @@ Current version: **1.5.1**, versionCode **16**, package `com.lumen.tv`. Developm
 
 ## Changes
 
-Launcher-level app lock: hold OK on a Home tile and choose Lock app; locked tiles show a badge and opening one asks for a 4-digit code, with the hold-OK menu opening beside the tile. The code is the current TV clock time HHmm reversed (14:45 → 5441) and is not shown in the UI; a wrong code clears the digits and keeps the glass passcode panel open. This is a child lock for launcher launches (rows, dock/More apps, Recent, folders), not OS-level security. The old Add to Games / Media / Tools presets are removed; unlocked apps offer Move / Remove from Home / Lock app. Also includes liquid-glass light/dark surfaces and Home opacity recovery.
+Launcher-level app lock: hold OK on a Home tile and choose Lock app; locked tiles show a badge and opening one asks for a 4-digit code, with the hold-OK menu opening beside the tile. The code is the current TV clock time HHmm reversed (14:45 → 5441) and is not shown in the UI; a wrong code clears the digits and keeps the glass passcode panel open. This is a child lock for launcher launches (rows, dock/More apps, Recent, folders), not OS-level security; voice, Android Recents and launches outside Lumen are not blocked. The old Add to Games / Media / Tools presets are removed; unlocked apps offer Move / Remove from Home / Lock app. Also includes liquid-glass light/dark surfaces, Home opacity recovery, the microphone/Input shortcuts and explicit on-device Local ADB setup/Restart (firmware/debugging authorization dependent).
 
-Build verification: 53/53 browser tests, type-check, webOS and Android frontend builds and Android debug build/lint pass. The flow was exercised on a development TV with injected keys; physical-remote confirmation is still pending.
+Build verification: 53/53 browser tests, 34 voice JVM tests, type-check, webOS and Android frontend builds and Android debug build/lint pass. The flow was exercised on a development TV with injected keys; physical-remote confirmation is still pending.
 
 APK SHA-256:
 
